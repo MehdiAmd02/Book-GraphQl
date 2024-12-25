@@ -1,0 +1,15 @@
+type BookDTO {
+    titre: String
+    publisher: String
+    datePublication: String
+    price: Float
+    resume: String
+}
+
+input BookInput {
+    titre: String
+    publisher: String
+    datePublication: String
+    price: Float
+    resume: String
+}
